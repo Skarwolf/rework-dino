@@ -1,0 +1,57 @@
+body{
+    
+}
+.teemo{
+   
+    margin-left: 50%;
+}
+
+
+.ekko{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.cogumelo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(cogumeloz.png);
+}
+
+.gameOver{
+    box-shadow: 25px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    font-family:fantasy, monospace;
+    font-size: 50px;
+    margin-top: 5%;
+    background-image: url(teemo.png);
+    background-repeat: no-repeat;
+    background-position-x: 55%;
+    width: 100%;
+    height: 600px;
+}
+
+@keyframes alideright {
+    from {
+        background-position: 20000%;
+    }
+
+    to{
+        background-position: 0;
+    }
+}
+
+.background{
+    position: absolute;
+    bottom: 0;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    animation: alideright 400s infinite linear;
+    width: 100%;
+    height: 200px;
+}
